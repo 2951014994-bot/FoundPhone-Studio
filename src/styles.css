@@ -752,7 +752,8 @@ svg {
   );
 }
 .wallpaper-custom {
-  background-image: url("../245973.webp");
+  background-color: #171717;
+  background-image: url("/FoundPhone-Studio/245973.webp?v=4") !important;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
