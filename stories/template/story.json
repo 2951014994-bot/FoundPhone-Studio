@@ -563,16 +563,6 @@
         "meta": {}
       }
     ],
-    "netease": [
-      {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
     "delivery": [
       {
         "id": "test-item-delivery",
@@ -656,16 +646,6 @@
     "reddit": [
       {
         "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "spotify": [
-      {
-        "id": "test-item-spotify",
         "title": "测试内容",
         "body": "这是一条测试内容。",
         "sender": "测试用户",
