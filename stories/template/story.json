@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 5,
+  "revision": 6,
   "phone": {
     "owner": "4444",
     "date": "2026-10-25",
@@ -360,12 +360,102 @@
     ],
     "music": [
       {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
+        "id": "song-figures",
+        "title": "Figures",
+        "sender": "Jessie Reyez",
+        "body": "场景：公路上",
+        "time": "2026-10-30 17:00",
         "kind": "text",
-        "meta": {}
+        "folder": "公路上",
+        "meta": {
+          "scene": "公路上",
+          "artist": "Jessie Reyez",
+          "source": "用户提供的歌曲清单"
+        }
+      },
+      {
+        "id": "song-dat-stick",
+        "title": "Dat $tick",
+        "sender": "Rich Chigga",
+        "body": "场景：化妆时",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "folder": "化妆时",
+        "meta": {
+          "scene": "化妆时",
+          "artist": "Rich Chigga",
+          "source": "用户提供的歌曲清单"
+        }
+      },
+      {
+        "id": "song-officially-missing-you",
+        "title": "officially missing you",
+        "sender": "jayesslee",
+        "body": "场景：睡觉前",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "folder": "睡觉前",
+        "meta": {
+          "scene": "睡觉前",
+          "artist": "jayesslee",
+          "source": "用户提供的歌曲清单"
+        }
+      },
+      {
+        "id": "song-mama-dont-worry",
+        "title": "MAMA DON'T WORRY",
+        "sender": "SAM KIM",
+        "body": "场景：起床时",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "folder": "起床时",
+        "meta": {
+          "scene": "起床时",
+          "artist": "SAM KIM",
+          "source": "用户提供的歌曲清单"
+        }
+      },
+      {
+        "id": "song-bank-roll",
+        "title": "Bank Roll",
+        "sender": "Diplo / Rich The Kid / Young Thug / Justin Bieber",
+        "body": "场景：运动中",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "folder": "运动中",
+        "meta": {
+          "scene": "运动中",
+          "artist": "Diplo / Rich The Kid / Young Thug / Justin Bieber",
+          "source": "用户提供的歌曲清单"
+        }
+      },
+      {
+        "id": "song-lost-boy",
+        "title": "Lost Boy",
+        "sender": "Ruth B",
+        "body": "场景：无人岛",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "folder": "无人岛",
+        "meta": {
+          "scene": "无人岛",
+          "artist": "Ruth B",
+          "source": "用户提供的歌曲清单"
+        }
+      },
+      {
+        "id": "song-xiangzheni",
+        "title": "想着你",
+        "sender": "郭顶",
+        "body": "场景：外太空",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "folder": "外太空",
+        "meta": {
+          "scene": "外太空",
+          "artist": "郭顶",
+          "source": "用户提供的歌曲清单"
+        }
       }
     ],
     "maps": [
