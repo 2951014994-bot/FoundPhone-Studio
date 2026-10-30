@@ -57,7 +57,6 @@
     "maps",
     "weather",
     "wallet",
-    "health",
     "find",
     "calculator",
     "settings",
@@ -456,16 +455,6 @@
     "wallet": [
       {
         "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "health": [
-      {
-        "id": "test-item-health",
         "title": "测试内容",
         "body": "这是一条测试内容。",
         "sender": "测试用户",
