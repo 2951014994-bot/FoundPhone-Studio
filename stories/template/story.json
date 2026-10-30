@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 12,
+  "revision": 13,
   "phone": {
     "owner": "4444",
     "date": "2026-10-25",
@@ -297,80 +297,86 @@
       {
         "id": "safari-search-1",
         "title": "碱水面包和橙子一起吃为什么像呕吐物",
-        "body": "",
+        "body": "约 2,430 条相关结果 · 搜索灵感",
         "sender": "Safari",
         "time": "2026-10-30 17:20",
         "kind": "text",
         "folder": "历史记录",
         "favorite": false,
         "meta": {
-          "url": "搜索记录"
-        }
+          "url": "搜索结果 · Safari"
+        },
+        "richText": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"碱水面包和橙子一起吃，为什么像呕吐物？\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"约 2,430 条相关结果 · 搜索灵感\"}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"可能是气味和味觉的组合\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"碱水面包经过碱液处理，烘烤后会形成明显的碱香、麦香和焦香；橙子的酸甜与柑橘皮中的挥发性香气叠加在一起，有时会让人联想到发酵、奶酪或其他比较强烈的气味。\"}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"常见的几个原因\"}]},{\"type\":\"bulletList\",\"content\":[{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"面包碱味偏重：碱水处理或烘烤风味突出。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"橙皮的苦味：白色橘络和果皮精油会带来苦涩、辛香。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"温度影响：面包刚出炉时的气味更浓，和冷橙子的香气混在一起，感受可能更奇怪。\"}]}]}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"可以试试这样吃\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"先单独尝一口面包，再吃橙子；也可以换成甜度更高、酸度较低的橙子，或搭配无糖茶。若食物本身有异常气味、变质迹象，就不要继续食用。\"}]},{\"type\":\"blockquote\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"味觉体验很主观，同一种搭配有人觉得清爽，也有人觉得冲突。\"}]}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"相关搜索\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"碱水面包为什么有碱味 · 橙子皮为什么发苦 · 面包和水果怎么搭配\"}]}]}"
       },
       {
         "id": "safari-search-2",
         "title": "新手插花教程",
-        "body": "",
+        "body": "入门指南 · 约 8 分钟阅读",
         "sender": "Safari",
         "time": "2026-10-30 17:21",
         "kind": "text",
         "folder": "历史记录",
         "favorite": false,
         "meta": {
-          "url": "搜索记录"
-        }
+          "url": "搜索结果 · Safari"
+        },
+        "richText": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"新手插花教程：从一束花开始\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"入门指南 · 约 8 分钟阅读\"}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"准备材料\"}]},{\"type\":\"bulletList\",\"content\":[{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"花材 5–9 枝：选择一种主花、少量配花和叶材。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"花器：口径略小于花束展开宽度的花瓶。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"工具：干净剪刀、清水、花材保鲜剂（可选）。\"}]}]}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"第一步：处理花材\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"去掉水线以下的叶片，斜剪花茎底部。不同花材长度可以错开，先不要剪得太短，方便后续调整。\"}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"第二步：确定主次\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"先放主花，再围绕主花加入配花。让花头高低错落，避免所有花朵排成同一条直线。\"}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"第三步：调整轮廓\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"从正面和侧面观察花束，适当留出空隙。叶材用来连接花朵，不需要把每个空位都填满。\"}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"养护小贴士\"}]},{\"type\":\"bulletList\",\"content\":[{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"每天换水并清洗花瓶。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"每隔一两天重新修剪花茎。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"避免阳光直晒、空调出风口和成熟水果旁边。\"}]}]}]},{\"type\":\"blockquote\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"新手先练习控制高低和疏密，比追求复杂造型更重要。\"}]}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"相关搜索\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"螺旋花束怎么扎 · 家庭插花配色 · 鲜花怎么延长花期\"}]}]}"
       },
       {
         "id": "safari-search-3",
         "title": "刮痧教程",
-        "body": "",
+        "body": "健康科普 · 入门阅读",
         "sender": "Safari",
         "time": "2026-10-30 17:22",
         "kind": "text",
         "folder": "历史记录",
         "favorite": false,
         "meta": {
-          "url": "搜索记录"
-        }
+          "url": "搜索结果 · Safari"
+        },
+        "richText": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"刮痧教程：基础手法与注意事项\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"健康科普 · 入门阅读\"}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"刮痧是什么？\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"刮痧是传统外治方法之一，通常使用边缘圆滑的工具配合介质，在皮肤表面进行轻柔、单向的刮拭。不同部位和人群的适用情况并不相同。\"}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"基础准备\"}]},{\"type\":\"bulletList\",\"content\":[{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"选择边缘光滑、无裂口的正规工具。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"清洁皮肤和工具，使用适合皮肤的润滑介质。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"力度以舒适为准，不追求越红越有效。\"}]}]}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"基础操作原则\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"先在小范围轻柔尝试，动作保持平稳，不在同一位置反复用力。出现明显疼痛、麻木、破皮或不适时立即停止。\"}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"这些情况不要自行刮痧\"}]},{\"type\":\"bulletList\",\"content\":[{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"皮肤有伤口、感染、皮疹或明显炎症。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"有出血倾向、正在使用抗凝药物，或存在相关基础疾病。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"孕期、儿童、体弱者或不确定是否适合的人群，应先咨询专业医务人员。\"}]}]}]},{\"type\":\"blockquote\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"刮痧不能替代诊断和治疗。若症状持续或加重，应及时就医。\"}]}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"相关搜索\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"刮痧板怎么选择 · 刮痧后注意事项 · 哪些人不适合刮痧\"}]}]}"
       },
       {
         "id": "safari-search-4",
         "title": "烧笛子总是断",
-        "body": "",
+        "body": "乐器练习笔记 · 常见问题整理",
         "sender": "Safari",
         "time": "2026-10-30 17:23",
         "kind": "text",
         "folder": "历史记录",
         "favorite": false,
         "meta": {
-          "url": "搜索记录"
-        }
+          "url": "搜索结果 · Safari"
+        },
+        "richText": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"烧笛子总是断？先检查这几个地方\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"乐器练习笔记 · 常见问题整理\"}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"可能原因一：材料太干或有暗伤\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"竹笛、陶笛或自制笛子的材料不同，开裂原因也不同。竹材如果保存环境过于干燥、温差变化大，或本身存在细小裂纹，就更容易出现裂口。\"}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"可能原因二：受热不均\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"如果你说的是制作或烧制过程，局部升温过快、器壁厚薄不均、内部残留水分，都可能造成应力集中。\"}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"可以先做的检查\"}]},{\"type\":\"bulletList\",\"content\":[{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"确认笛身是否有原本就存在的裂纹。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"检查壁厚是否均匀，接口和边缘有没有应力集中。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"避免突然的高温变化；具体烧制温度和流程应遵循材料及工艺要求。\"}]}]}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"先确认你说的是哪一种笛子\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"竹笛受热开裂、陶笛烧制炸裂，以及练习时笛膜或配件损坏，是完全不同的问题，处理方法也不一样。\"}]},{\"type\":\"blockquote\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"不要反复用明火加热已经开裂的乐器，以免造成烫伤或进一步损坏。\"}]}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"相关搜索\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"竹笛开裂怎么保养 · 陶笛烧制开裂原因 · 笛子日常保存方法\"}]}]}"
       },
       {
         "id": "safari-search-5",
         "title": "叠石",
-        "body": "",
+        "body": "户外与手作灵感 · 图文指南",
         "sender": "Safari",
         "time": "2026-10-30 17:24",
         "kind": "text",
         "folder": "历史记录",
         "favorite": false,
         "meta": {
-          "url": "搜索记录"
-        }
+          "url": "搜索结果 · Safari"
+        },
+        "richText": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"叠石：让石头稳稳站住的入门方法\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"户外与手作灵感 · 图文指南\"}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"从观察重心开始\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"先找出石头较平整的接触面，观察它的重心大致落在哪里。底部越稳定，越容易继续向上叠放。\"}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"新手练习步骤\"}]},{\"type\":\"orderedList\",\"content\":[{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"挑选几块形状不同、表面相对平整的石头。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"先用最大、最稳的一块做底座。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"每次只增加一块，轻轻调整接触点。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"松手后观察是否晃动，再决定是否继续。\"}]}]}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"让造型更有层次\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"可以尝试大小交替、方向变化和不对称构图。叠石不一定越高越好，低矮、稳定的造型也很有美感。\"}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"户外叠石提醒\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"不要移动溪流、步道或自然栖息地中的石头；石堆可能是生态环境的一部分，也可能是路线标记。练习时尽量使用自带石材或在允许的场地进行，结束后恢复原状。\"}]},{\"type\":\"blockquote\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"稳定、克制和尊重环境，比叠得高更重要。\"}]}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"相关搜索\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"平衡石怎么叠 · 叠石艺术入门 · 石头重心练习\"}]}]}"
       },
       {
         "id": "safari-search-6",
         "title": "北京哪座山人少",
-        "body": "",
+        "body": "周末出行灵感 · 非实时人流信息",
         "sender": "Safari",
         "time": "2026-10-30 17:25",
         "kind": "text",
         "folder": "历史记录",
         "favorite": false,
         "meta": {
-          "url": "搜索记录"
-        }
+          "url": "搜索结果 · Safari"
+        },
+        "richText": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"北京哪座山人少？周末安静徒步参考\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"周末出行灵感 · 非实时人流信息\"}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"想避开人群，可以这样选\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"相比热门景区和网红登山入口，一些距离市区稍远、公共交通不那么方便的郊野步道，工作日或非节假日通常更安静。但实际人流会受天气、季节和活动影响。\"}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"可以先了解的方向\"}]},{\"type\":\"bulletList\",\"content\":[{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"门头沟部分郊野步道：山地线路较多，出发前确认开放情况和交通。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"房山浅山区：可寻找正规开放的森林步道，注意部分区域可能临时封闭。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"延庆、怀柔外围：路程较远，适合提前规划的一日徒步。\"}]}]}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"出发前检查\"}]},{\"type\":\"orderedList\",\"content\":[{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"确认景区或步道官方开放公告。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"查看天气、日落时间和公共交通末班车。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"选择有明确路线标识的开放线路，不翻越围栏、不进入未开放区域。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"带足饮水、充电设备和适合的衣物，尽量结伴出行。\"}]}]}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"避开人流的小技巧\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"尽量选择普通周末的早晨出发，避开节假日和热门活动日。不要为了人少而独自进入无信号、无标识的野山。\"}]},{\"type\":\"blockquote\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"本页是原创路线选择建议，不代表实时客流或景区开放状态。\"}]}]},{\"type\":\"heading\",\"content\":[{\"type\":\"text\",\"text\":\"相关搜索\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"北京郊野徒步开放路线 · 门头沟徒步注意事项 · 北京周边一日轻徒步\"}]}]}"
       }
     ],
     "notes": [
