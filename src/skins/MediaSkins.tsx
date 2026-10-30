@@ -214,7 +214,7 @@ export function NeteaseSkin(p: Props) {
                 setTrack(i);
               }}
             >
-              <Media item={i} className="music-cover" />
+              <AlbumCover item={i} />
               <div>
                 <strong>{i.title}</strong>
                 <small>
