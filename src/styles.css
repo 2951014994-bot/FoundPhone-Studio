@@ -754,7 +754,7 @@ svg {
 .wallpaper-custom {
   background-color: #172a2b;
   background-image:
-    url("./245973.webp"),
+    url("../245973.webp"),
     linear-gradient(145deg, #7f9390, #334e4a 45%, #172a2b 76%, #667c71);
   background-position: center center;
   background-size: cover;
