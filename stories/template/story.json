@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 8,
+  "revision": 9,
   "phone": {
     "owner": "4444",
     "date": "2026-10-25",
@@ -414,6 +414,96 @@
         "id": "song-xiangzheni",
         "title": "想着你",
         "sender": "郭顶",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-isnt-she-lovely",
+        "title": "Isn't She Lovely",
+        "sender": "Stevie Wonder",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-que-sera-sera",
+        "title": "Que Sera Sera",
+        "sender": "Janet Seidel",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-fuqin-xiaoyequ",
+        "title": "抚琴小夜曲",
+        "sender": "声音玩具",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-bie-qianwan-bie",
+        "title": "别，千万别",
+        "sender": "朴树",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-shiwan-hippie",
+        "title": "十万嬉皮",
+        "sender": "万能青年旅店",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-chengshi-zhaozhu",
+        "title": "城市找猪 (Pigs in the City)",
+        "sender": "五条人",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-shierlou",
+        "title": "十二楼",
+        "sender": "莫文蔚",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-caihong",
+        "title": "彩虹",
+        "sender": "伍佰 & China Blue",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-no-burka",
+        "title": "No Burka! (拒绝罩袍)",
+        "sender": "Burka Band",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-dashi",
+        "title": "大事",
+        "sender": "陈文非",
         "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
