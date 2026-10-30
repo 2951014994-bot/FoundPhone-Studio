@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 10,
+  "revision": 11,
   "phone": {
     "owner": "4444",
     "date": "2026-10-25",
@@ -540,6 +540,69 @@
         "id": "song-qingni-buyao-shui-haoma",
         "title": "请你不要睡好吗？",
         "sender": "at17",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-jimo-de-jijie",
+        "title": "寂寞的季节",
+        "sender": "陶喆",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-gaoji-dongwu",
+        "title": "高级动物",
+        "sender": "窦唯",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-yifang-tiandi",
+        "title": "一方天地",
+        "sender": "张本煜",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-bao-liu",
+        "title": "保留",
+        "sender": "郭顶",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-bu-ming-xia-luo",
+        "title": "不明下落",
+        "sender": "郭顶",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-reminds-me-of-you",
+        "title": "Reminds Me of You",
+        "sender": "Sam Smith",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-pray",
+        "title": "Pray",
+        "sender": "Sam Smith",
         "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
