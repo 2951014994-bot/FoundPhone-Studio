@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 11,
+  "revision": 12,
   "phone": {
     "owner": "4444",
     "date": "2026-10-25",
@@ -293,6 +293,84 @@
         "sender": "测试用户",
         "kind": "text",
         "meta": {}
+      },
+      {
+        "id": "safari-search-1",
+        "title": "碱水面包和橙子一起吃为什么像呆吐物",
+        "body": "",
+        "sender": "Safari",
+        "time": "2026-10-30 17:20",
+        "kind": "text",
+        "folder": "历史记录",
+        "favorite": false,
+        "meta": {
+          "url": "搜索记录"
+        }
+      },
+      {
+        "id": "safari-search-2",
+        "title": "新手插花教程",
+        "body": "",
+        "sender": "Safari",
+        "time": "2026-10-30 17:21",
+        "kind": "text",
+        "folder": "历史记录",
+        "favorite": false,
+        "meta": {
+          "url": "搜索记录"
+        }
+      },
+      {
+        "id": "safari-search-3",
+        "title": "刮痧教程",
+        "body": "",
+        "sender": "Safari",
+        "time": "2026-10-30 17:22",
+        "kind": "text",
+        "folder": "历史记录",
+        "favorite": false,
+        "meta": {
+          "url": "搜索记录"
+        }
+      },
+      {
+        "id": "safari-search-4",
+        "title": "烧笛子总是断",
+        "body": "",
+        "sender": "Safari",
+        "time": "2026-10-30 17:23",
+        "kind": "text",
+        "folder": "历史记录",
+        "favorite": false,
+        "meta": {
+          "url": "搜索记录"
+        }
+      },
+      {
+        "id": "safari-search-5",
+        "title": "叠石",
+        "body": "",
+        "sender": "Safari",
+        "time": "2026-10-30 17:24",
+        "kind": "text",
+        "folder": "历史记录",
+        "favorite": false,
+        "meta": {
+          "url": "搜索记录"
+        }
+      },
+      {
+        "id": "safari-search-6",
+        "title": "北京哪座山人少",
+        "body": "",
+        "sender": "Safari",
+        "time": "2026-10-30 17:25",
+        "kind": "text",
+        "folder": "历史记录",
+        "favorite": false,
+        "meta": {
+          "url": "搜索记录"
+        }
       }
     ],
     "notes": [
