@@ -103,7 +103,7 @@ export function SpotifySkin(p: Props) {
           </button>
         )}
         <div className="spotify-tracks">
-          {list.map((i, n) => (
+          {list.map((i) => (
             <button
               key={i.id}
               onClick={() => {
@@ -190,7 +190,7 @@ export function NeteaseSkin(p: Props) {
             <h3>{folder || "我的歌单"}</h3>
           </>
         )}
-        {list.map((i, n) => (
+        {list.map((i) => (
           <div className="netease-track" key={i.id}>
             <button
               onClick={() => {
