@@ -740,6 +740,104 @@
           "type": "transit-card",
           "city": "北京"
         }
+      },
+      {
+        "id": "bj-transit-20260808",
+        "title": "公交车 · 332路",
+        "body": "动物园 → 白石桥东",
+        "sender": "北京公交",
+        "kind": "text",
+        "folder": "交易",
+        "time": "2026-08-08 10:26",
+        "meta": {
+          "amount": "-¥1.00",
+          "type": "bus",
+          "direction": "支出"
+        }
+      },
+      {
+        "id": "bj-transit-20260819",
+        "title": "公交车 · 运通105路",
+        "body": "中关村南 → 魏公村",
+        "sender": "北京公交",
+        "kind": "text",
+        "folder": "交易",
+        "time": "2026-08-19 16:48",
+        "meta": {
+          "amount": "-¥1.00",
+          "type": "bus",
+          "direction": "支出"
+        }
+      },
+      {
+        "id": "bj-transit-20260903",
+        "title": "公交车 · 特4路",
+        "body": "国家图书馆 → 西直门",
+        "sender": "北京公交",
+        "kind": "text",
+        "folder": "交易",
+        "time": "2026-09-03 11:12",
+        "meta": {
+          "amount": "-¥1.00",
+          "type": "bus",
+          "direction": "支出"
+        }
+      },
+      {
+        "id": "bj-transit-20260914",
+        "title": "地铁 · 4号线",
+        "body": "平安里 → 国家图书馆（非高峰时段）",
+        "sender": "北京地铁",
+        "kind": "text",
+        "folder": "交易",
+        "time": "2026-09-14 14:37",
+        "meta": {
+          "amount": "-¥3.00",
+          "type": "metro",
+          "direction": "支出"
+        }
+      },
+      {
+        "id": "bj-transit-20260927",
+        "title": "公交车 · 92路",
+        "body": "地铁苹果园站 → 金顶街",
+        "sender": "北京公交",
+        "kind": "text",
+        "folder": "交易",
+        "time": "2026-09-27 18:06",
+        "meta": {
+          "amount": "-¥1.00",
+          "type": "bus",
+          "direction": "支出"
+        }
+      },
+      {
+        "id": "bj-transit-20261008",
+        "title": "公交车 · 运通102路",
+        "body": "魏公村 → 人民大学",
+        "sender": "北京公交",
+        "kind": "text",
+        "folder": "交易",
+        "time": "2026-10-08 09:42",
+        "meta": {
+          "amount": "-¥1.00",
+          "type": "bus",
+          "direction": "支出"
+        }
+      },
+      {
+        "id": "bj-transit-20261022",
+        "title": "公交车 · 332路",
+        "body": "白石桥东 → 动物园",
+        "sender": "北京公交",
+        "kind": "text",
+        "folder": "交易",
+        "time": "2026-10-22 15:19",
+        "meta": {
+          "amount": "-¥1.00",
+          "type": "bus",
+          "direction": "支出"
+        }
       }
     ],
     "find": [
