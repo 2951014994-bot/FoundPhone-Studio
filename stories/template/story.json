@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 9,
+  "revision": 10,
   "phone": {
     "owner": "4444",
     "date": "2026-10-25",
@@ -504,6 +504,42 @@
         "id": "song-dashi",
         "title": "大事",
         "sender": "陈文非",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-singalongsong",
+        "title": "Singalongsong",
+        "sender": "方大同",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-cant-take-my-eyes-off-you",
+        "title": "Can’t Take My Eyes Off You",
+        "sender": "Frankie Valli",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-huohuo-chai",
+        "title": "划火柴",
+        "sender": "海龟先生",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-qingni-buyao-shui-haoma",
+        "title": "请你不要睡好吗？",
+        "sender": "at17",
         "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
