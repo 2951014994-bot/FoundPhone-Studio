@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 7,
+  "revision": 8,
   "phone": {
     "owner": "4444",
     "date": "2026-10-25",
@@ -366,7 +366,6 @@
         "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
-        "media": "https://cdn.shopify.com/s/files/1/0105/4542/products/jessiereyez-beinghumaninpublic2_1800x.jpg",
         "meta": {}
       },
       {
@@ -376,7 +375,6 @@
         "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
-        "media": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b5/a7/df/b5a7df03-43a4-ce8f-4673-632c94afddfd/888915208465_cover.jpg/1000x1000bb.jpg",
         "meta": {}
       },
       {
@@ -386,7 +384,6 @@
         "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
-        "media": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/ae/7c/49ae7ce1-f3e7-170e-f708-5b5c505250f1/859708188981_cover.jpg/1000x1000bb.jpg",
         "meta": {}
       },
       {
@@ -396,7 +393,6 @@
         "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
-        "media": "https://wimg.heraldcorp.com/content/default/2016/04/15/20160415001078_0.jpg",
         "meta": {}
       },
       {
@@ -406,7 +402,6 @@
         "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
-        "media": "https://i1.sndcdn.com/artworks-000227058477-asuxdh-t500x500.jpg",
         "meta": {}
       },
       {
@@ -416,7 +411,6 @@
         "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
-        "media": "https://i.audiomack.com/ruth-b/c32f8ee6ee.webp?width=1200",
         "meta": {}
       },
       {
@@ -426,7 +420,6 @@
         "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
-        "media": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4b/55/95/4b5595a2-5d2c-38c7-8179-0a27e5ba58a1/00602488600859.rgb.jpg/1000x1000bb.jpg",
         "meta": {}
       }
     ],

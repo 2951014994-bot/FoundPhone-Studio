@@ -30,6 +30,23 @@ import {
   useContent,
   type Props,
 } from "./shared";
+const MUSIC_COVERS: Record<string, string> = {
+  "song-figures": "https://cdn.shopify.com/s/files/1/0105/4542/products/jessiereyez-beinghumaninpublic2_1800x.jpg",
+  "song-dat-stick": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b5/a7/df/b5a7df03-43a4-ce8f-4673-632c94afddfd/888915208465_cover.jpg/1000x1000bb.jpg",
+  "song-officially-missing-you": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/ae/7c/49ae7ce1-f3e7-170e-f708-5b5c505250f1/859708188981_cover.jpg/1000x1000bb.jpg",
+  "song-mama-dont-worry": "https://wimg.heraldcorp.com/content/default/2016/04/15/20160415001078_0.jpg",
+  "song-bank-roll": "https://i1.sndcdn.com/artworks-000227058477-asuxdh-t500x500.jpg",
+  "song-lost-boy": "https://i.audiomack.com/ruth-b/c32f8ee6ee.webp?width=1200",
+  "song-xiangzheni": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4b/55/95/4b5595a2-5d2c-38c7-8179-0a27e5ba58a1/00602488600859.rgb.jpg/1000x1000bb.jpg",
+};
+function AlbumCover({ item }: { item: Item }) {
+  const src = MUSIC_COVERS[item.id];
+  return src ? (
+    <img className="music-cover" src={src} alt={`${item.title} album cover`} loading="lazy" />
+  ) : (
+    <div className="music-cover music-cover-fallback">{item.title.slice(0, 1)}</div>
+  );
+}
 function TrackPlayer({
   item,
   p,
@@ -110,7 +127,7 @@ export function SpotifySkin(p: Props) {
                 setTrack(i);
               }}
             >
-              <Media item={i} className="music-cover" />
+              <AlbumCover item={i} />
               <div>
                 <strong>{i.title}</strong>
                 <small>
