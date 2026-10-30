@@ -3,9 +3,9 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 4,
+  "revision": 5,
   "phone": {
-    "owner": "机主",
+    "owner": "4444",
     "date": "2026-10-25",
     "time": "09:41",
     "battery": 94,
@@ -380,12 +380,24 @@
     ],
     "weather": [
       {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
+        "id": "beijing-weather-20261030",
+        "title": "北京",
+        "body": "2026年10月30日 17:00 天气实况：晴，气温约17°C，西北风约18 km/h，降水概率接近0%。日落后气温将继续下降。",
+        "time": "2026-10-30 17:00",
+        "sender": "天气",
         "kind": "text",
-        "meta": {}
+        "meta": {
+          "locationLabel": "中国 · 北京",
+          "temperature": "17",
+          "high": "20",
+          "low": "4",
+          "condition": "晴",
+          "wind": "西北风 18 km/h",
+          "rain": "0%",
+          "sunrise": "06:41",
+          "hourly": "[{\"time\":\"17时\",\"temperature\":\"17\"},{\"time\":\"18时\",\"temperature\":\"16\"},{\"time\":\"19时\",\"temperature\":\"14\"},{\"time\":\"20时\",\"temperature\":\"13\"},{\"time\":\"21时\",\"temperature\":\"12\"},{\"time\":\"22时\",\"temperature\":\"10\"}]",
+          "daily": "[{\"label\":\"今天\",\"low\":\"4\",\"high\":\"20\"},{\"label\":\"周六\",\"low\":\"6\",\"high\":\"12\"},{\"label\":\"周日\",\"low\":\"2\",\"high\":\"17\"},{\"label\":\"周一\",\"low\":\"3\",\"high\":\"15\"},{\"label\":\"周二\",\"low\":\"4\",\"high\":\"14\"}]"
+        }
       }
     ],
     "wallet": [
@@ -691,6 +703,19 @@
         "id": "test-appstore",
         "title": "测试内容",
         "body": "这是一条测试内容。"
+      }
+    ],
+    "wechat": [
+      {
+        "id": "wechat-owner-profile",
+        "title": "4",
+        "body": "微信个人资料",
+        "sender": "我",
+        "avatar": "data:image/jpeg;base64,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",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "folder": "我",
+        "meta": {}
       }
     ]
   },

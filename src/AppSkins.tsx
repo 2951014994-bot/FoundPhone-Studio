@@ -173,6 +173,8 @@ export function WeChatSkin(p: SkinProps) {
   const contacts = [
     ...new Set(p.items.map((i) => i.sender).filter((s) => s !== "我")),
   ];
+  const profile = p.items.find((i) => i.folder === "我");
+  const profileName = profile?.title || p.owner || "机主";
   const posts = p.items.filter(
     (i) => i.folder === "朋友圈" || i.kind === "post",
   );
@@ -419,9 +421,9 @@ export function WeChatSkin(p: SkinProps) {
           ) : (
             <>
               <div className="wx-profile">
-                <Avatar name={p.owner || "机主"} />
+                <Avatar name={profileName} src={profile?.avatar} />
                 <div>
-                  <h2>{p.owner || "机主"}</h2>
+                  <h2>{profileName}</h2>
                   <small>微信号：未设置</small>
                   <button
                     className="wx-profile-status"
