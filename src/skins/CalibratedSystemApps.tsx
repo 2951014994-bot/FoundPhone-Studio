@@ -50,8 +50,10 @@ function recordFor(items: Item[], key: string) {
     sleep: ["睡眠"],
     steps: ["步数"],
   };
+  const terms = map[key];
+  if (!terms) return undefined;
   return items.find((i) =>
-    map[key].some((s) => meta(i, "metric", i.title).includes(s)),
+    terms.some((s) => meta(i, "metric", i.title).includes(s)),
   );
 }
 export function HealthSkin(p: Props) {
