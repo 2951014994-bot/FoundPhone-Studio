@@ -727,12 +727,19 @@
     ],
     "wallet": [
       {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
+        "id": "beijing-transit-card",
+        "title": "北京一卡通",
+        "body": "北京市政交通一卡通\n余额：¥840.00\n卡号尾号：2488",
+        "sender": "交通联合 · 北京",
         "kind": "text",
-        "meta": {}
+        "folder": "交通卡",
+        "time": "2026-10-30 17:00",
+        "meta": {
+          "number": "**** **** **** 2488",
+          "amount": "余额 ¥840.00",
+          "type": "transit-card",
+          "city": "北京"
+        }
       }
     ],
     "find": [
