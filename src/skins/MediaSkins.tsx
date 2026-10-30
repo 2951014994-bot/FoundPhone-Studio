@@ -110,7 +110,7 @@ export function SpotifySkin(p: Props) {
                 setTrack(i);
               }}
             >
-              <span>{n + 1}</span>
+              <Media item={i} className="music-cover" />
               <div>
                 <strong>{i.title}</strong>
                 <small>
@@ -197,7 +197,7 @@ export function NeteaseSkin(p: Props) {
                 setTrack(i);
               }}
             >
-              <span>{n + 1}</span>
+              <Media item={i} className="music-cover" />
               <div>
                 <strong>{i.title}</strong>
                 <small>

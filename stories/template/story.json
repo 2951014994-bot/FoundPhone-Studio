@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 6,
+  "revision": 7,
   "phone": {
     "owner": "4444",
     "date": "2026-10-25",
@@ -363,99 +363,71 @@
         "id": "song-figures",
         "title": "Figures",
         "sender": "Jessie Reyez",
-        "body": "场景：公路上",
+        "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
-        "folder": "公路上",
-        "meta": {
-          "scene": "公路上",
-          "artist": "Jessie Reyez",
-          "source": "用户提供的歌曲清单"
-        }
+        "media": "https://cdn.shopify.com/s/files/1/0105/4542/products/jessiereyez-beinghumaninpublic2_1800x.jpg",
+        "meta": {}
       },
       {
         "id": "song-dat-stick",
         "title": "Dat $tick",
         "sender": "Rich Chigga",
-        "body": "场景：化妆时",
+        "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
-        "folder": "化妆时",
-        "meta": {
-          "scene": "化妆时",
-          "artist": "Rich Chigga",
-          "source": "用户提供的歌曲清单"
-        }
+        "media": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b5/a7/df/b5a7df03-43a4-ce8f-4673-632c94afddfd/888915208465_cover.jpg/1000x1000bb.jpg",
+        "meta": {}
       },
       {
         "id": "song-officially-missing-you",
         "title": "officially missing you",
         "sender": "jayesslee",
-        "body": "场景：睡觉前",
+        "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
-        "folder": "睡觉前",
-        "meta": {
-          "scene": "睡觉前",
-          "artist": "jayesslee",
-          "source": "用户提供的歌曲清单"
-        }
+        "media": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/ae/7c/49ae7ce1-f3e7-170e-f708-5b5c505250f1/859708188981_cover.jpg/1000x1000bb.jpg",
+        "meta": {}
       },
       {
         "id": "song-mama-dont-worry",
         "title": "MAMA DON'T WORRY",
         "sender": "SAM KIM",
-        "body": "场景：起床时",
+        "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
-        "folder": "起床时",
-        "meta": {
-          "scene": "起床时",
-          "artist": "SAM KIM",
-          "source": "用户提供的歌曲清单"
-        }
+        "media": "https://wimg.heraldcorp.com/content/default/2016/04/15/20160415001078_0.jpg",
+        "meta": {}
       },
       {
         "id": "song-bank-roll",
         "title": "Bank Roll",
         "sender": "Diplo / Rich The Kid / Young Thug / Justin Bieber",
-        "body": "场景：运动中",
+        "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
-        "folder": "运动中",
-        "meta": {
-          "scene": "运动中",
-          "artist": "Diplo / Rich The Kid / Young Thug / Justin Bieber",
-          "source": "用户提供的歌曲清单"
-        }
+        "media": "https://i1.sndcdn.com/artworks-000227058477-asuxdh-t500x500.jpg",
+        "meta": {}
       },
       {
         "id": "song-lost-boy",
         "title": "Lost Boy",
         "sender": "Ruth B",
-        "body": "场景：无人岛",
+        "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
-        "folder": "无人岛",
-        "meta": {
-          "scene": "无人岛",
-          "artist": "Ruth B",
-          "source": "用户提供的歌曲清单"
-        }
+        "media": "https://i.audiomack.com/ruth-b/c32f8ee6ee.webp?width=1200",
+        "meta": {}
       },
       {
         "id": "song-xiangzheni",
         "title": "想着你",
         "sender": "郭顶",
-        "body": "场景：外太空",
+        "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
-        "folder": "外太空",
-        "meta": {
-          "scene": "外太空",
-          "artist": "郭顶",
-          "source": "用户提供的歌曲清单"
-        }
+        "media": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4b/55/95/4b5595a2-5d2c-38c7-8179-0a27e5ba58a1/00602488600859.rgb.jpg/1000x1000bb.jpg",
+        "meta": {}
       }
     ],
     "maps": [
