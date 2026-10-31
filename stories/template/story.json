@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 26,
+  "revision": 27,
   "phone": {
     "owner": "4444",
     "date": "2026-10-25",
@@ -797,7 +797,7 @@
         "id": "wechat-contact-liuguokun",
         "title": "刘国锟",
         "sender": "刘国锟",
-        "avatar": "data:image/jpeg;base64,BASE64_IMAGE",
+        "avatar": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJikxKSEiMEExNDk7Pj4+JS5ESUM8SDc+QzYBCwsLDw4PHRERHTIpIig7MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAByAHIASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAwQCBQYB/8QALRAAAQMDAgQEBwAAAAAAAAAAAQIDBAAFEQYSITETQVEHImFxgZGhscHh8P/EABkBAQADAQEAAAAAAAAAAAAAAAABAgMEBf/EACIRAQACAQQCAwEAAAAAAAAAAAECEQMhEjEEQVEiMmFxgf/aAAwDAQACEQMRAD8A6+uZq2m0pZbS2v7S3uLqO3mkkkWQyqgqg8g8g8VZfFfVdQ0+4u7W5u7e4uY7eW4lkkkUqgqg4B4B6Vw7xH4g0nVdU0u5u7q4u7m5u7i4uY7eW4lkkkUqgqg4B4B6Vxj4m0nVdU0u5u7q4u7m5u7i4uY7eW4lkkkUqgqg4B4B6Vxj4m0nVdU0u5u7q4u7m5u7i4uY7eW4lkkkUqgqg4B4B6Vw//Z",
         "kind": "text",
         "folder": "通讯录",
         "meta": {
