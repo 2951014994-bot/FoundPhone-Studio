@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 19,
+  "revision": 20,
   "phone": {
     "owner": "4444",
     "date": "2026-10-25",
@@ -747,6 +747,45 @@
         "time": "2026-10-31 21:01",
         "sender": "刘一萌",
         "avatar": "",
+        "kind": "text",
+        "folder": "通讯录",
+        "meta": {
+          "contact": "true"
+        }
+      },
+      {
+        "id": "wechat-contact-zengwu",
+        "title": "曾无",
+        "body": "已添加为微信好友",
+        "sender": "曾无",
+        "avatar": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABELDA8MChEPDg8TEhEUGSobGRcXGTMkJh4qPDU/Pjs1OjlDS2BRQ0daSDk6U3FUWmNma2xrQFB2fnRofWBpa2f/2wBDARITExkWGTEbGzFnRTpFZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2f/wAARCABgAGADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwX/xAAXEAEBAQEAAAAAAAAAAAAAAAAAERIB/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwUG/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oADAMBAAIRAxEAPwDxwHmPuAAAAAAAAAAAVGoABAAIABABSCAEFAaBFAQUARQEFARQBc9XLrkjNY05YXDrCFTTlhcOkMpU054MOsMlNOWDDrCFNOWEw6whV03DLcIzXKsRY1FiUrEI3CFSsQjcIUrEI3CFKxCNwhVrUI3CM1zrEWNQhSswjUWCViEbhClYhG4Qq1iEahClf//Z",
+        "time": "2026-10-31 21:02",
+        "kind": "text",
+        "folder": "通讯录",
+        "meta": {
+          "contact": "true"
+        }
+      },
+      {
+        "id": "wechat-contact-diaoyinan",
+        "title": "刁亦男",
+        "body": "已添加为微信好友",
+        "sender": "刁亦男",
+        "avatar": "data:image/jpeg;base64,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",
+        "time": "2026-10-31 21:03",
+        "kind": "text",
+        "folder": "通讯录",
+        "meta": {
+          "contact": "true"
+        }
+      },
+      {
+        "id": "wechat-contact-bigan",
+        "title": "毕赣",
+        "body": "已添加为微信好友",
+        "sender": "毕赣",
+        "avatar": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABELDA8MChEPDg8TEhEUGSobGRcXGTMkJh4qPDU/Pjs1OjlDS2BRQ0daSDk6U3FUWmNma2xrQFB2fnRofWBpa2f/2wBDARITExkWGTEbGzFnRTpFZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2f/wAARCABgAGADASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAABAUBAwYCAP/EADQQAAICAQIFAgQEBAcAAAAAAAECAAMRBCEFEjFBURMiBjJxkRRhgbEVQqHwFiNDcsHR4f/EABgBAAMBAQAAAAAAAAAAAAAAAAABAwIE/8QAHREBAQACAgMBAAAAAAAAAAAAAAECESExAxJBE//aAAwDAQACEQMRAD8AV38H19f+gzjyuDA3ptq2srdP9ykTcZ3nic+D9ZD2VZbTWj+HrlgG+XJ/vxA9bphfXnAG+2cZM0XGNMfw7W6apfVXfYDeI3oY4Qsc9WP5y+N9onZqhuGWkj0k/l25j0xKOL0rXajptvvJDLpNRkE8pON+/wCcK1SLfS2d89I/hFr6l78UUA8p2Plv/I/4Lw6vT8rNiy8/ZZnzpnqVXIwG6GaT4ZD26U/kxBMxTOUr9pz7mhdFRZfd5lum0vTAhmnoC5iCmujbpCq6gBjE75QJJOBGCDOfM6zOM/vJztIKPMQZn9TX6d1g8Z/qY95u8TcYtVLRjAZhv+Ur47yzkU6ylbBgjvIpfko+UbbDPWd2liuE+5kV14XLHr3MswHsDuMsds9JpfgtQyXqezA/0iCwIy8oIz336Rt8J3nT666pj1UH+/vMWG3FYAE6U4aV0tzIDLBs0QSTIYGdnEgnPSAZ0Hae7T3QSCZBRDbKZmuMF/mXOW/cGaXsYq4siBB7uYjfAXpNTs51p7hvw7dqqUtutFKMMhQeZo0r+HdDV8yWWt5sY/sIL8MW1vW9dlwDBvapPaaNwBX7SfvOqdbQLzpqqaWFNFSeAq4irX6T0uMfjkJwwC2L4OBgx0533gmpq9RbUB+bMzkcNuHWCyoQtxg/pEHw9qi45G6jYiPzuBMG7wJyZI3A+k9AM2DsMyDOeb2CezkSKjonaA66vm6jbGMwwdZYjcjA8oI8HpCHvRDwsehxAXFSVr67bHsf+/0mxrIsrDqQVI2Igl1Vd+n5kQqzbZkcPRdNWKwxQr2JyMdp1YzURt3dr7a+p7QdhluviG3e5RBCMWAeQYUF+kU6PjRUn2W+9f8AmaofJM7q9IdTr6VRuVqk5iw856RvRqeUenYe2OaZs0BtY9smRWcgkfWdTJseHJxOgZRX0lyjJG8iotUdJYBtnxOE8S4bwC3TWFHAYZXsPEK9HLM/Ug5EDBwIPreJX8O05sRlKgjZhkAZ3lsM9cVi4jrFq9TkFjVMRnlB2lX4e216zXYvKjYYPnOYlo+Ia9VxVAwtsQn2jkCgAdx3P0jrVajNmC1lSlcqeXJJ7CUuUk234/H7dhNBxRU4jdRqEKu9hVWweU79Mw7iFuHepH5Ry7uOxgXFLPU4fVS1dhtdhyNjCqR3+2Z2mlNqpRXsv8zeJPPO9Q/zmOXJvwS17dCpsOWG2fOIfmDaWsU1qijAG0JMIlWFqbYAwpWG3WL+F2i/SI+RkDlb6xgNhk74kbNKL1z2H3li58j9JUpyJYpiCzIIO5g2tIXSWEoGAU7Y6y4SGAIwRtHKGEq1L0ahNRUP8ypw48fTHiaf/FtOqFWU9NkwzFuhPgS9OG6Wp2NdKgt1iLjGgp0urAqTlVlzjMrMvgluPTQabjB43xAabTVlKEHMzkd/ymiooWpQFGwmJ4Jx6rgtTVW0M6O2eZSMj9JrOG8b4fr6w1V4G+OVxymO88s5ZW9mYGD9jLJUzYGc7Y7TsMDjeDL/2Q==",
+        "time": "2026-10-31 21:04",
         "kind": "text",
         "folder": "通讯录",
         "meta": {
