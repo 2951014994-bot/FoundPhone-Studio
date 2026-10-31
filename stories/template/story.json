@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 18,
+  "revision": 19,
   "phone": {
     "owner": "4444",
     "date": "2026-10-25",
@@ -726,6 +726,32 @@
         "kind": "text",
         "folder": "我",
         "meta": {}
+      },
+      {
+        "id": "wechat-contact-xulixiao",
+        "title": "徐立晓",
+        "body": "已添加为微信好友",
+        "time": "2026-10-31 21:00",
+        "sender": "徐立晓",
+        "avatar": "",
+        "kind": "text",
+        "folder": "通讯录",
+        "meta": {
+          "contact": "true"
+        }
+      },
+      {
+        "id": "wechat-contact-liuyimeng",
+        "title": "刘一萌",
+        "body": "已添加为微信好友",
+        "time": "2026-10-31 21:01",
+        "sender": "刘一萌",
+        "avatar": "",
+        "kind": "text",
+        "folder": "通讯录",
+        "meta": {
+          "contact": "true"
+        }
       }
     ]
   },
