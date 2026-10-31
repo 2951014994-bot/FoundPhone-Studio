@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 17,
+  "revision": 18,
   "phone": {
     "owner": "4444",
     "date": "2026-10-25",
@@ -69,123 +69,6 @@
           "id": "test-message-wechat",
           "body": "这是一条测试消息。",
           "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
-      "app": "whatsapp",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
-      "app": "line",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
-      "app": "kakao",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        },
-        {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
-          "senderId": "owner"
         }
       ]
     }
@@ -403,6 +286,15 @@
     ],
     "music": [
       {
+        "id": "song-xiangzheni",
+        "title": "想着你",
+        "sender": "郭顶",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
         "id": "song-fuqin-xiaoyequ",
         "title": "抚琴小夜曲",
         "sender": "声音玩具",
@@ -412,9 +304,27 @@
         "meta": {}
       },
       {
-        "id": "song-lost-boy",
-        "title": "Lost Boy",
-        "sender": "Ruth B",
+        "id": "song-huohuo-chai",
+        "title": "划火柴",
+        "sender": "海龟先生",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-singalongsong",
+        "title": "Singalongsong",
+        "sender": "方大同",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-shiwan-hippie",
+        "title": "十万嬉皮",
+        "sender": "万能青年旅店",
         "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
@@ -430,9 +340,9 @@
         "meta": {}
       },
       {
-        "id": "song-singalongsong",
-        "title": "Singalongsong",
-        "sender": "方大同",
+        "id": "song-bu-ming-xia-luo",
+        "title": "不明下落",
+        "sender": "郭顶",
         "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
@@ -457,144 +367,9 @@
         "meta": {}
       },
       {
-        "id": "song-huohuo-chai",
-        "title": "划火柴",
-        "sender": "海龟先生",
-        "body": "",
-        "time": "2026-10-30 17:00",
-        "kind": "text",
-        "meta": {}
-      },
-      {
         "id": "song-no-burka",
         "title": "No Burka! (拒绝罩袍)",
         "sender": "Burka Band",
-        "body": "",
-        "time": "2026-10-30 17:00",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "song-gaoji-dongwu",
-        "title": "高级动物",
-        "sender": "窦唯",
-        "body": "",
-        "time": "2026-10-30 17:00",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "song-xiangzheni",
-        "title": "想着你",
-        "sender": "郭顶",
-        "body": "",
-        "time": "2026-10-30 17:00",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "song-dat-stick",
-        "title": "Dat $tick",
-        "sender": "Rich Chigga",
-        "body": "",
-        "time": "2026-10-30 17:00",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "song-yifang-tiandi",
-        "title": "一方天地",
-        "sender": "张本煜",
-        "body": "",
-        "time": "2026-10-30 17:00",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "song-officially-missing-you",
-        "title": "officially missing you",
-        "sender": "jayesslee",
-        "body": "",
-        "time": "2026-10-30 17:00",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "song-shierlou",
-        "title": "十二楼",
-        "sender": "莫文蔚",
-        "body": "",
-        "time": "2026-10-30 17:00",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "song-dashi",
-        "title": "大事",
-        "sender": "陈文非",
-        "body": "",
-        "time": "2026-10-30 17:00",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "song-jimo-de-jijie",
-        "title": "寂寞的季节",
-        "sender": "陶喆",
-        "body": "",
-        "time": "2026-10-30 17:00",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "song-shiwan-hippie",
-        "title": "十万嬉皮",
-        "sender": "万能青年旅店",
-        "body": "",
-        "time": "2026-10-30 17:00",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "song-bu-ming-xia-luo",
-        "title": "不明下落",
-        "sender": "郭顶",
-        "body": "",
-        "time": "2026-10-30 17:00",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "song-bank-roll",
-        "title": "Bank Roll",
-        "sender": "Diplo / Rich The Kid / Young Thug / Justin Bieber",
-        "body": "",
-        "time": "2026-10-30 17:00",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "song-bie-qianwan-bie",
-        "title": "别，千万别",
-        "sender": "朴树",
-        "body": "",
-        "time": "2026-10-30 17:00",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "song-caihong",
-        "title": "彩虹",
-        "sender": "伍佰 & China Blue",
-        "body": "",
-        "time": "2026-10-30 17:00",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "song-mama-dont-worry",
-        "title": "MAMA DON'T WORRY",
-        "sender": "SAM KIM",
         "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
@@ -610,27 +385,18 @@
         "meta": {}
       },
       {
-        "id": "song-que-sera-sera",
-        "title": "Que Sera Sera",
-        "sender": "Janet Seidel",
-        "body": "",
-        "time": "2026-10-30 17:00",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "song-reminds-me-of-you",
-        "title": "Reminds Me of You",
-        "sender": "Sam Smith",
-        "body": "",
-        "time": "2026-10-30 17:00",
-        "kind": "text",
-        "meta": {}
-      },
-      {
         "id": "song-figures",
         "title": "Figures",
         "sender": "Jessie Reyez",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-jimo-de-jijie",
+        "title": "寂寞的季节",
+        "sender": "陶喆",
         "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
@@ -646,9 +412,126 @@
         "meta": {}
       },
       {
+        "id": "song-officially-missing-you",
+        "title": "officially missing you",
+        "sender": "jayesslee",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-mama-dont-worry",
+        "title": "MAMA DON'T WORRY",
+        "sender": "SAM KIM",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-bie-qianwan-bie",
+        "title": "别，千万别",
+        "sender": "朴树",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
         "id": "song-chengshi-zhaozhu",
         "title": "城市找猪 (Pigs in the City)",
         "sender": "五条人",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-lost-boy",
+        "title": "Lost Boy",
+        "sender": "Ruth B",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-bank-roll",
+        "title": "Bank Roll",
+        "sender": "Diplo / Rich The Kid / Young Thug / Justin Bieber",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-que-sera-sera",
+        "title": "Que Sera Sera",
+        "sender": "Janet Seidel",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-dashi",
+        "title": "大事",
+        "sender": "陈文非",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-gaoji-dongwu",
+        "title": "高级动物",
+        "sender": "窦唯",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-caihong",
+        "title": "彩虹",
+        "sender": "伍佰 & China Blue",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-yifang-tiandi",
+        "title": "一方天地",
+        "sender": "张本煜",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-dat-stick",
+        "title": "Dat $tick",
+        "sender": "Rich Chigga",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-shierlou",
+        "title": "十二楼",
+        "sender": "莫文蔚",
+        "body": "",
+        "time": "2026-10-30 17:00",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "song-reminds-me-of-you",
+        "title": "Reminds Me of You",
+        "sender": "Sam Smith",
         "body": "",
         "time": "2026-10-30 17:00",
         "kind": "text",
