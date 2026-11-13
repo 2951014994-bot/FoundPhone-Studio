@@ -57,7 +57,7 @@ export function defaultLayout(input: Work): DeviceLayout {
   return {
     version: 1,
     workId: w.id,
-    previewLayoutRevision: w.id === "ui-test-phone-v2" ? 1 : 0,
+    previewLayoutRevision: w.id === "ui-test-phone-v2" ? 2 : 0,
     apps: structuredClone(w.apps).sort((a, b) =>
       a.id === "appstore" ? -1 : b.id === "appstore" ? 1 : 0,
     ),
@@ -107,7 +107,7 @@ export function validateLayout(raw: unknown, input: Work) {
         if (visibleApps.includes(app.id)) {
           app.installed = true;
           app.visible = true;
-          app.dock = false;
+          app.dock = app.id === "wechat";
         }
       }
     }
