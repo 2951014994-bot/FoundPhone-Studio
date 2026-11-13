@@ -84,51 +84,39 @@ function ItemMedia({ item }: { item: Item }) {
   );
 }
 function MessageList({
-  items,
-  creator,
-  onItem,
-  onRead,
-  whatsapp = false,
+  items, allItems, creator, onItem, onRead, whatsapp = false,
 }: {
-  items: Item[];
-  creator: boolean;
-  onItem: (i: Item) => void;
-  onRead: (id: string) => void;
+  items: Item[]; allItems: Item[]; creator: boolean;
+  onItem: (i: Item) => void; onRead: (id: string) => void;
   whatsapp?: boolean;
 }) {
+  const avatarFor = (name: string) =>
+    allItems.find((x) => x.folder === "通讯录" && (x.title === name || x.sender === name))?.avatar ||
+    allItems.find((x) => x.folder === "我")?.avatar;
   return (
     <div className={`skin-messages ${whatsapp ? "wa-wallpaper" : ""}`}>
-      <div className="skin-date">{items[0]?.time.slice(0, 10)}</div>
-      {items.map((i) => (
-        <div
-          key={i.id}
-          className={`skin-message ${i.outgoing ? "outgoing" : ""}`}
-        >
-          {!whatsapp && !i.outgoing && (
-            <Avatar name={i.sender} src={i.avatar} />
-          )}
-          <button
-            className="skin-bubble"
-            onClick={() => (creator ? onItem(i) : onRead(i.id))}
-          >
-            {["image", "audio", "video"].includes(i.kind) ? (
-              <ItemMedia item={i} />
-            ) : i.kind === "transfer" ? (
-              <div className="skin-transfer">
-                ¥ {i.body}
-                <small>转账记录 · 虚构</small>
-              </div>
-            ) : (
-              i.body
-            )}
-            <small className={whatsapp ? undefined : "wx-message-time"}>
-              {i.time.slice(-5)}{" "}
-              {whatsapp && i.outgoing && <CheckCheck size={11} />}
-            </small>
-          </button>
-          {!whatsapp && i.outgoing && <Avatar name={i.sender} src={i.avatar} />}
-        </div>
-      ))}
+      {items.map((i, index) => {
+        const outgoing = i.sender === "我";
+        const previousDate = items[index - 1]?.time.slice(0, 10);
+        const currentDate = i.time.slice(0, 10);
+        return (
+          <div key={i.id}>
+            {currentDate !== previousDate && <div className="skin-date">{currentDate}</div>}
+            <div className={`skin-message ${outgoing ? "outgoing" : ""}`}>
+              {!whatsapp && !outgoing && <Avatar name={i.sender} src={avatarFor(i.sender)} />}
+              <button className="skin-bubble" onClick={() => (creator ? onItem(i) : onRead(i.id))}>
+                {["image", "audio", "video"].includes(i.kind) ? <ItemMedia item={i} /> : i.kind === "transfer" ? (
+                  <div className="skin-transfer">¥ {i.body}<small>转账记录 · 虚构</small></div>
+                ) : i.body}
+                <small className={whatsapp ? undefined : "wx-message-time"}>
+                  {i.time.slice(-5)} {whatsapp && outgoing && <CheckCheck size={11} />}
+                </small>
+              </button>
+              {!whatsapp && outgoing && <Avatar name={i.sender} src={avatarFor(i.sender)} />}
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }
@@ -166,7 +154,7 @@ export function WeChatSkin(p: SkinProps) {
   const conversations = [
     ...new Set(
       p.items
-        .filter((i) => !["朋友圈", "我", "通讯录"].includes(i.folder))
+        .filter((i) => !["朋友圈", "我", "通讯录"].includes(i.folder) && !i.title.includes("测试"))
         .map((i) => i.title),
     ),
   ];
@@ -255,7 +243,7 @@ export function WeChatSkin(p: SkinProps) {
                 <div key={name}>
                   <Avatar
                     name={name}
-                    src={p.items.find((i) => i.sender === name)?.avatar}
+                    src={p.items.find((i) => i.folder === "通讯录" && i.title === name)?.avatar}
                   />
                   <small>{name}</small>
                 </div>
@@ -280,7 +268,8 @@ export function WeChatSkin(p: SkinProps) {
       ) : p.thread ? (
         <>
           <MessageList
-            items={p.items.filter((i) => i.title === p.thread)}
+            items={p.items.filter((i) => i.title === p.thread && i.folder === "聊天")}
+            allItems={p.items}
             creator={p.creator}
             onItem={p.onItem}
             onRead={p.onRead}
@@ -352,13 +341,8 @@ export function WeChatSkin(p: SkinProps) {
                       }}
                     >
                       <span className="wx-chat-avatar">
-                        <Avatar name={t} src={last.avatar} />
-                        {!readThreads.includes(t) &&
-                          list.some((i) => !i.read) && (
-                            <b className="wx-unread">
-                              {list.filter((i) => !i.read).length}
-                            </b>
-                          )}
+                        <Avatar name={t} src={p.items.find((i) => i.folder === "通讯录" && i.title === t)?.avatar} />
+
                       </span>
                       <div>
                         <strong>{t}</strong>
@@ -387,7 +371,7 @@ export function WeChatSkin(p: SkinProps) {
                 >
                   <Avatar
                     name={c}
-                    src={p.items.find((i) => i.sender === c)?.avatar}
+                    src={p.items.find((i) => i.folder === "通讯录" && i.title === c)?.avatar}
                   />
                   {c}
                 </button>
