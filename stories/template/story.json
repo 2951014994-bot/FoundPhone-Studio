@@ -1512,6 +1512,56 @@
         "folder": "聊天",
         "outgoing": true,
         "meta": {}
+      },
+      {
+        "id": "wechat-liuyimeng-chat-001",
+        "title": "刘一萌",
+        "sender": "刘一萌",
+        "time": "2026-08-05 13:47",
+        "kind": "text",
+        "folder": "聊天",
+        "meta": {},
+        "body": "最近的剧本邀约筛过一遍发你邮箱了"
+      },
+      {
+        "id": "wechat-liuyimeng-chat-002",
+        "title": "刘一萌",
+        "sender": "我",
+        "time": "2026-08-05 13:47",
+        "kind": "text",
+        "folder": "聊天",
+        "meta": {},
+        "body": "👌🏻"
+      },
+      {
+        "id": "wechat-liuyimeng-chat-003",
+        "title": "刘一萌",
+        "sender": "刘一萌",
+        "time": "2026-08-05 13:48",
+        "kind": "text",
+        "folder": "聊天",
+        "meta": {},
+        "body": "法国那位的单独发你了"
+      },
+      {
+        "id": "wechat-liuyimeng-chat-004",
+        "title": "刘一萌",
+        "sender": "我",
+        "time": "2026-08-05 13:48",
+        "kind": "text",
+        "folder": "聊天",
+        "meta": {},
+        "body": "这么快发来了"
+      },
+      {
+        "id": "wechat-liuyimeng-chat-005",
+        "title": "刘一萌",
+        "sender": "刘一萌",
+        "time": "2026-08-05 13:49",
+        "kind": "text",
+        "folder": "聊天",
+        "meta": {},
+        "body": "嗯，优先看他的吧"
       }
     ],
     "health": [
