@@ -90,7 +90,6 @@ export function validateLayout(raw: unknown, input: Work) {
     const authored = w.apps.find((a) => a.id === app.id);
     if (authored && !authored.visible) {
       app.visible = false;
-      app.dock = app.id === "wechat";
     }
   }
   if (w.id === "ui-test-phone-v2" && layout.previewLayoutRevision < 2) {
@@ -107,7 +106,24 @@ export function validateLayout(raw: unknown, input: Work) {
         if (visibleApps.includes(app.id)) {
           app.installed = true;
           app.visible = true;
-          app.dock = app.id === "wechat";
+          if (app.id === "wechat") {
+            const dockApps = layout.apps.filter(
+              (candidate) =>
+                candidate.id !== "wechat" &&
+                candidate.installed &&
+                candidate.visible &&
+                candidate.dock,
+            );
+            if (dockApps.length >= 4) {
+              const displaced =
+                dockApps.find((candidate) => candidate.id === "camera") ??
+                dockApps[0];
+              displaced.dock = false;
+            }
+            app.dock = true;
+          } else {
+            app.dock = false;
+          }
         }
       }
     }
