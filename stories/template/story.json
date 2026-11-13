@@ -798,7 +798,7 @@
         "id": "wechat-contact-a",
         "title": "A",
         "sender": "A",
-        "avatar": "https://raw.githubusercontent.com/2951014994-bot/FoundPhone-Studio/refs/heads/main/public/avatars/contact-a.jpg",
+        "avatar": "https://raw.githubusercontent.com/2951014994-bot/FoundPhone-Studio/main/public/avatars/contact-a.jpg",
         "kind": "text",
         "folder": "通讯录",
         "meta": {
