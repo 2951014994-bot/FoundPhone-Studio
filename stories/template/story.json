@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 28,
+  "revision": 29,
   "phone": {
     "owner": "4444",
     "date": "2026-11-13",
@@ -2042,6 +2042,54 @@
       }
     ],
     "health": [
+      {
+        "id": "health-steps-2026-11-13",
+        "title": "步数",
+        "body": "截至今天下午，共走了 3,286 步。",
+        "time": "2026-11-13 15:05",
+        "sender": "健康",
+        "kind": "text",
+        "meta": {
+          "metric": "步数",
+          "value": "3286",
+          "unit": "步",
+          "series": "[3120,4280,2950,5160,3890,4510,3286]"
+        }
+      },
+      {
+        "id": "health-activity-2026-11-13",
+        "title": "健身记录",
+        "body": "今天以日常走动为主，暂未安排专门训练。",
+        "time": "2026-11-13 15:00",
+        "sender": "健康",
+        "kind": "text",
+        "meta": {
+          "metric": "健身记录",
+          "active": "126",
+          "exercise": "8",
+          "stand": "5",
+          "value": "126",
+          "unit": "千卡",
+          "series": "[142,176,131,205,168,194,126]"
+        }
+      },
+      {
+        "id": "health-sleep-2026-11-13",
+        "title": "睡眠记录",
+        "body": "昨晚 23:12 入睡，今天 09:08 起床，睡眠时长约 9小时56分钟。",
+        "time": "2026-11-13 09:20",
+        "sender": "健康",
+        "kind": "text",
+        "meta": {
+          "metric": "睡眠",
+          "value": "9小时56分钟",
+          "unit": "",
+          "start": "23:12",
+          "end": "09:08",
+          "quality": "良好",
+          "series": "[612,588,626,596,608,582,618]"
+        }
+      },
       {
         "id": "health-sleep-2026-10-30",
         "title": "睡眠记录",
