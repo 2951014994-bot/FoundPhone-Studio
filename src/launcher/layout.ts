@@ -90,10 +90,10 @@ export function validateLayout(raw: unknown, input: Work) {
     const authored = w.apps.find((a) => a.id === app.id);
     if (authored && !authored.visible) {
       app.visible = false;
-      app.dock = false;
+      app.dock = app.id === "wechat";
     }
   }
-  if (w.id === "ui-test-phone-v2" && layout.previewLayoutRevision < 1) {
+  if (w.id === "ui-test-phone-v2" && layout.previewLayoutRevision < 2) {
     const visibleApps = ["wechat", "douyin"];
     for (const app of layout.apps) {
       if (
@@ -115,7 +115,7 @@ export function validateLayout(raw: unknown, input: Work) {
       ...visibleApps,
       ...layout.order.filter((id) => !visibleApps.includes(id)),
     ];
-    layout.previewLayoutRevision = 1;
+    layout.previewLayoutRevision = 2;
   }
   const entries = homeEntries(layout),
     packed = packHome(entries, layout.positions);
