@@ -146,11 +146,6 @@ export function WeChatSkin(p: SkinProps) {
     [menu, setMenu] = useState(false),
     [searchOpen, setSearchOpen] = useState(false),
     [utility, setUtility] = useState("");
-  const [readThreads, setReadThreads] = useSkinState<string[]>(
-    p,
-    "readThreads",
-    [],
-  );
   const conversations = [
     ...new Set(
       p.items
@@ -335,7 +330,6 @@ export function WeChatSkin(p: SkinProps) {
                       className="wx-chat-row"
                       key={t}
                       onClick={() => {
-                        setReadThreads((v) => (v.includes(t) ? v : [...v, t]));
                         p.onThread(t);
                         p.onRead(t);
                       }}
@@ -552,7 +546,8 @@ export function WhatsAppSkin(p: SkinProps) {
             <Phone size={17} />
           </div>
           <MessageList
-            items={p.items.filter((i) => i.title === p.thread)}
+            items={p.items.filter((i) => i.title === p.thread && i.folder === "聊天")}
+            allItems={p.items}
             creator={p.creator}
             onItem={p.onItem}
             onRead={p.onRead}
