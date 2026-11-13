@@ -4948,3 +4948,77 @@ label {
   color: #444;
   font-size: 10px;
 }
+
+/* WeChat conversation alignment and message rhythm */
+.wechat-ui .skin-messages,
+.whatsapp-ui .skin-messages {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 12px 10px;
+  background: #ededed;
+}
+.wechat-ui .skin-message,
+.whatsapp-ui .skin-message {
+  display: flex;
+  align-items: flex-end;
+  gap: 7px;
+  width: 100%;
+  margin: 10px 0;
+}
+.wechat-ui .skin-message.outgoing,
+.whatsapp-ui .skin-message.outgoing {
+  justify-content: flex-end;
+}
+.wechat-ui .skin-message .skin-avatar,
+.whatsapp-ui .skin-message .skin-avatar {
+  width: 31px;
+  height: 31px;
+  min-width: 31px;
+  font-size: 13px;
+}
+.wechat-ui .skin-bubble,
+.whatsapp-ui .skin-bubble {
+  display: block;
+  position: relative;
+  max-width: 72%;
+  min-width: 30px;
+  padding: 9px 10px 17px;
+  border: 0;
+  border-radius: 7px;
+  background: #fff;
+  color: #171717;
+  text-align: left;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-size: 12px;
+  line-height: 1.45;
+}
+.wechat-ui .skin-message.outgoing .skin-bubble,
+.whatsapp-ui .skin-message.outgoing .skin-bubble {
+  background: #95ec69;
+}
+.wechat-ui .wx-message-time {
+  position: absolute;
+  right: 6px;
+  bottom: 2px;
+  color: #8b8b8b;
+  font-size: 8px;
+  line-height: 1;
+}
+.wechat-ui .skin-date,
+.whatsapp-ui .skin-date {
+  width: fit-content;
+  margin: 8px auto 14px;
+  padding: 3px 7px;
+  border-radius: 4px;
+  background: #d9d9d9;
+  color: #fff;
+  font-size: 9px;
+}
+.wechat-ui .wx-chat-avatar {
+  display: block;
+  width: 43px;
+  height: 43px;
+  flex: 0 0 43px;
+}
