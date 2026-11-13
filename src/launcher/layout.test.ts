@@ -117,3 +117,26 @@ it("migrates preview folders once while preserving custom folders and widgets", 
     validateLayout(migrated, w).apps.find((a) => a.id === "wechat")!.folder,
   ).toBe("作者新建文件夹");
 });
+
+it("keeps story-hidden apps hidden in defaults and stale saved layouts", () => {
+  const w = work();
+  for (const id of ["appstore", "taobao", "alipay", "notes", "reminders", "weibo", "photos"]) {
+    const app = w.apps.find((a) => a.id === id)!;
+    app.visible = false;
+    app.dock = false;
+  }
+  const fresh = defaultLayout(w);
+  for (const id of ["appstore", "taobao", "alipay", "notes", "reminders", "weibo", "photos"]) {
+    expect(fresh.apps.find((a) => a.id === id)).toMatchObject({ visible: false, dock: false });
+  }
+  const stale = structuredClone(fresh);
+  for (const id of ["appstore", "taobao", "alipay", "notes", "reminders", "weibo", "photos"]) {
+    const app = stale.apps.find((a) => a.id === id)!;
+    app.visible = true;
+    app.dock = false;
+  }
+  const migrated = validateLayout(stale, w);
+  for (const id of ["appstore", "taobao", "alipay", "notes", "reminders", "weibo", "photos"]) {
+    expect(migrated.apps.find((a) => a.id === id)).toMatchObject({ visible: false, dock: false });
+  }
+});
